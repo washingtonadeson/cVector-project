@@ -1,3 +1,5 @@
+#ifdef CVECTOR_H
+#define CVECTOR_H
 #include <bits/stdc++.h>
 
 class cVector {
@@ -20,3 +22,5 @@ public:
     float& operator[](int);
     float operator[](int) const;
 };
+
+#endif CVECTOR_H
