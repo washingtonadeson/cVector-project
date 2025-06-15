@@ -1,6 +1,5 @@
 #ifndef CVECTOR_H
 #define CVECTOR_H
-#include <bits/stdc++.h>
 
 class cVector {
 private:
