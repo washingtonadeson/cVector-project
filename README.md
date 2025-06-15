@@ -2,16 +2,20 @@
 Một lớp vector đa chiều bằng C++ (A C++ multidimensional vector class)
 
 Vector phải được xác định trước kích thuớc.
+
 Vector nếu chưa được xác định trước kích thước và data của vector
+
     => chương trình sẽ tự động VÔ HIỆU HÓA VECTOR (không thể dùng được, EMPTY VECTOR)
 
 Vector có kích thuớc hợp lệ nhưng chưa xác định trước data của vector
+
     => KHÔNG THỂ truy xuất dữ liệu phần tử của data
     => Chương trình cho phép nhập data nhưng không thể xuất data cho đến khi đã được nhập
     Nếu xuất data chưa xác định
         => Chương trình báo lỗi chưa nhập
     
 Vector có kích thước không hợp lệ (kể cả khi chưa xác định kích thước)
+
     => chương trình sẽ tự động HỦY vector bằng cách reset về dimension = 0, data = nullptr
         => Vector bị VÔ HIỆU HÓA (không thể dùng được, EMPTY VECTOR)
             => KHÔNG THỂ truy xuất dữ liệu phần tử của data
