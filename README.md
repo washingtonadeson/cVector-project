@@ -74,8 +74,11 @@ __Tôi viết chương trình này để thể hiện:__
 
 - Kiến thức lập trình hướng đối tượng (OOP) vững chắc trong C++
 
-- Phong cách lập trình phòng thủ (defensive programming)
-
 - Quản lý bộ nhớ thủ công
 
 - Nắm vững việc nạp chồng toán tử trong C++
+
+## TÁC GIẢ
+- Tên: Vũ Xuân Thiên
+- Trường Đại học Công nghệ Thông tin - ĐHQGTPHCM
+- GitHub: https://github.com/washingtonadeson
