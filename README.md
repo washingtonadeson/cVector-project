@@ -69,7 +69,7 @@ _Quy trình tự báo lỗi được xử lý rõ ràng, hợp lý và an toàn 
 
 _Với mục đích học tập, đây là một thiết kế chặt chẽ, có kiểm tra lỗi cẩn thận và rất dễ hiểu._
 
-# Tại sao mình thực hiện dự án này?
+# Tại sao tôi thực hiện dự án này?
 __Tôi viết chương trình này để thể hiện:__
 
 - Kiến thức lập trình hướng đối tượng (OOP) vững chắc trong C++
