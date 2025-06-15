@@ -37,7 +37,7 @@ __Vector phải được xác định trước kích thuớc.__
 
    
 
-# Dự án này hiện thực một lớp CVector trong ngôn ngữ C++ để mô hình hóa các vector toán học trong không gian nhiều chiều.
+# Dự án này hiện thực một lớp CVector trong ngôn ngữ C++ để mô hình hóa các vector toán học trong không gian đa chiều.
 Lớp hỗ trợ các phép toán cơ bản như cộng, trừ, tích vô hướng (dot product), chuẩn hóa (norm), truy cập phần tử, và nhập/xuất dữ liệu.
 
 # Tính năng
