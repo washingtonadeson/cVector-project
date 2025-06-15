@@ -1,15 +1,25 @@
 # cVector-project
 Một lớp vector đa chiều bằng C++ (A C++ multidimensional vector class)
 
-Vector phải được xác định trước kích thuớc. Nếu chưa xác định trước khi run, chương trình sẽ mặc định là vector RỖNG => VÔ HIỆU HÓA VECTOR
+Vector phải được xác định trước kích thuớc.
+Vector nếu chưa được xác định trước kích thước và data của vector
+    => chương trình sẽ tự động VÔ HIỆU HÓA VECTOR (không thể dùng được, EMPTY VECTOR)
 
-Vector có kích thuớc hợp lệ nhưng chưa xác định trước data
-=> KHÔNG THỂ truy xuất dữ liệu, vẫn có thể nhập data nhưng không thể xuất data cho đến khi đã nhập
+Vector có kích thuớc hợp lệ nhưng chưa xác định trước data của vector
+    => KHÔNG THỂ truy xuất dữ liệu phần tử của data
+    => Chương trình cho phép nhập data nhưng không thể xuất data cho đến khi đã được nhập
+    Nếu xuất data chưa xác định
+        => Chương trình báo lỗi chưa nhập
     
-Vector có kích thước không hợp lệ, chương trinh sẽ tự động hủy vector (vector RỖNG, dimension = 0, data = nullptr)
-=> KHÔNG THỂ truy xuất dữ liệu, không thể nhập data, và không thể xuất data kể cả khi đã nhập (vector đã bị vô hiệu hóa)
+Vector có kích thước không hợp lệ (kể cả khi chưa xác định kích thước)
+    => chương trình sẽ tự động HỦY vector bằng cách reset về dimension = 0, data = nullptr
+        => Vector bị VÔ HIỆU HÓA (không thể dùng được, EMPTY VECTOR)
+            => KHÔNG THỂ truy xuất dữ liệu phần tử của data
+            => KHÔNG THỂ nhập data
+            => Xuất data vector dưới dạng EMPTY
 
-# Dự án này hiện thực một lớp CVector trong ngôn ngữ C++ để mô hình hóa các vector toán học trong không gian nhiều chiều. Lớp hỗ trợ các phép toán cơ bản như cộng, trừ, tích vô hướng (dot product), chuẩn hóa (norm), truy cập phần tử, và nhập/xuất dữ liệu.
+# Dự án này hiện thực một lớp CVector trong ngôn ngữ C++ để mô hình hóa các vector toán học trong không gian đa chiều.
+Lớp hỗ trợ các phép toán cơ bản như cộng, trừ, tích vô hướng (dot product), chuẩn hóa (norm), truy cập phần tử, và nhập/xuất dữ liệu.
 
 # Tính năng
 Hỗ trợ vector có kích thước động (số chiều tùy ý)
