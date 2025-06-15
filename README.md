@@ -5,7 +5,7 @@ __Vector phải được xác định trước kích thuớc.__
 
 1. Vector nếu chưa được xác định trước kích thước và data của vector
 
-_Chương trình sẽ tự động VÔ HIỆU HÓA VECTOR (không thể dùng được, EMPTY VECTOR)_
+   _Chương trình sẽ tự động VÔ HIỆU HÓA VECTOR (không thể dùng được, EMPTY VECTOR)_
 
 2. Vector có kích thuớc hợp lệ nhưng chưa xác định trước data của vector
 
