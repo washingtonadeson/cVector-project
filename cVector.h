@@ -1,4 +1,4 @@
-#ifdef CVECTOR_H
+#ifndef CVECTOR_H
 #define CVECTOR_H
 #include <bits/stdc++.h>
 
@@ -23,4 +23,4 @@ public:
     float operator[](int) const;
 };
 
-#endif CVECTOR_H
+#endif
