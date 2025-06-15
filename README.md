@@ -3,67 +3,67 @@ Một lớp vector đa chiều bằng C++ (A C++ multidimensional vector class)
 
 __Vector phải được xác định trước kích thuớc.__
 
-1.Vector nếu chưa được xác định trước kích thước và data của vector
+1. Vector nếu chưa được xác định trước kích thước và data của vector
 
-=> chương trình sẽ tự động VÔ HIỆU HÓA VECTOR (không thể dùng được, EMPTY VECTOR)
+_Chương trình sẽ tự động VÔ HIỆU HÓA VECTOR (không thể dùng được, EMPTY VECTOR)_
 
-2.Vector có kích thuớc hợp lệ nhưng chưa xác định trước data của vector
+2. Vector có kích thuớc hợp lệ nhưng chưa xác định trước data của vector
 
-- KHÔNG THỂ truy xuất dữ liệu phần tử của data
+_KHÔNG THỂ truy xuất dữ liệu phần tử của vector_
   
-=> Chương trình cho phép nhập data nhưng không thể xuất data cho đến khi đã được nhập
+_Chương trình cho phép nhập vector (data) nhưng không thể xuất vector cho đến khi đã được nhập_
 
-- Nếu xuất data chưa xác định
+- Nếu xuất vector chưa xác định
   
-=> Chương trình báo lỗi chưa nhập
+_Chương trình sẽ báo lỗi chưa nhập_
     
-2.Vector có kích thước không hợp lệ (kể cả khi chưa xác định kích thước)
+3. Vector có kích thước không hợp lệ (kể cả khi chưa xác định kích thước)
 
-=> chương trình sẽ tự động HỦY vector bằng cách reset về dimension = 0, data = nullptr
+_Chương trình sẽ tự động HỦY vector bằng cách reset về dimension = 0, data = nullptr_
 
-=> Vector bị VÔ HIỆU HÓA (không thể dùng được, EMPTY VECTOR)
+_Vector bị VÔ HIỆU HÓA (không thể dùng được, EMPTY VECTOR)_
 
-=> KHÔNG THỂ truy xuất dữ liệu phần tử của data
+_KHÔNG THỂ truy xuất dữ liệu phần tử của vector_
 
-=> KHÔNG THỂ nhập data
+_KHÔNG THỂ nhập vector (data)_
 
-=> Xuất data vector dưới dạng EMPTY
+_Xuất vector dưới dạng EMPTY_
 
 # Dự án này hiện thực một lớp CVector trong ngôn ngữ C++ để mô hình hóa các vector toán học trong không gian đa chiều.
 Lớp hỗ trợ các phép toán cơ bản như cộng, trừ, tích vô hướng (dot product), chuẩn hóa (norm), truy cập phần tử, và nhập/xuất dữ liệu.
 
 # Tính năng
--Cộng và trừ vector
+- Cộng và trừ vector
 
--Tích vô hướng (dot product)
+- Tích vô hướng (dot product)
 
--Tính chuẩn (độ dài) của vector
+- Tính chuẩn (độ dài) của vector
 
--Truy cập phần tử bằng toán tử []
+- Truy cập phần tử bằng toán tử []
 
--So sánh hai vector bằng ==
+- So sánh hai vector bằng ==
 
--Nhập/Xuất dữ liệu bằng toán tử >> và <<
+- Nhập/Xuất dữ liệu bằng toán tử >> và <<
 
 # Dự án này bao gồm xử lý lỗi an toàn, cụ thể với các trường hợp:
 
--Sai lệch về số chiều giữa các vector
+- Sai lệch về số chiều giữa các vector
 
--Dữ liệu chưa được khởi tạo
+- Dữ liệu chưa được khởi tạo
 
--Truy cập chỉ số không hợp lệ, quy trình tự báo lỗi được xử lý rõ ràng, hợp lý và an toàn ở mức cơ bản.
+- Truy cập chỉ số không hợp lệ, quy trình tự báo lỗi được xử lý rõ ràng, hợp lý và an toàn ở mức cơ bản.
 
-=> Với mục đích học tập, đây là một thiết kế chặt chẽ, có kiểm tra lỗi cẩn thận và rất dễ hiểu.
+_Với mục đích học tập, đây là một thiết kế chặt chẽ, có kiểm tra lỗi cẩn thận và rất dễ hiểu._
 
--Con trỏ null (con trỏ rỗng)
+- Con trỏ null (con trỏ rỗng)
 
 # Tại sao mình thực hiện dự án này?
-Tôi viết chương trình này để thể hiện:
+__Tôi viết chương trình này để thể hiện:__
 
--Kiến thức lập trình hướng đối tượng (OOP) vững chắc trong C++
+- Kiến thức lập trình hướng đối tượng (OOP) vững chắc trong C++
 
--Phong cách lập trình phòng thủ (defensive programming)
+- Phong cách lập trình phòng thủ (defensive programming)
 
--Quản lý bộ nhớ thủ công
+- Quản lý bộ nhớ thủ công
 
--Nắm vững việc nạp chồng toán tử trong C++
+- Nắm vững việc nạp chồng toán tử trong C++
