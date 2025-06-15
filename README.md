@@ -7,13 +7,13 @@ __Vector phải được xác định trước kích thuớc.__
 
 
 
-1. Vector nếu chưa được xác định trước kích thước và data của vector
+__Vector nếu chưa được xác định trước kích thước và data của vector__
 
    _Chương trình sẽ tự động VÔ HIỆU HÓA VECTOR (không thể dùng được, EMPTY VECTOR)_
 
    
 
-3. Vector có kích thuớc hợp lệ nhưng chưa xác định trước data của vector
+__Vector có kích thuớc hợp lệ nhưng chưa xác định trước data của vector__
 
    _KHÔNG THỂ truy xuất dữ liệu phần tử của vector_
   
@@ -25,7 +25,7 @@ __Vector phải được xác định trước kích thuớc.__
 
      
     
-3. Vector có kích thước không hợp lệ (kể cả khi chưa xác định kích thước)
+__Vector có kích thước không hợp lệ (kể cả khi chưa xác định kích thước)__
 
    _Chương trình sẽ tự động HỦY vector bằng cách reset về dimension = 0, data = nullptr. Hậu quả vector bị VÔ HIỆU HÓA (không thể dùng được, EMPTY VECTOR)_
 
@@ -37,7 +37,7 @@ __Vector phải được xác định trước kích thuớc.__
 
    
 
-# Dự án này hiện thực một lớp CVector trong ngôn ngữ C++ để mô hình hóa các vector toán học trong không gian đa chiều.
+# Dự án này hiện thực một lớp CVector trong ngôn ngữ C++ để mô hình hóa các vector toán học trong không gian nhiều chiều.
 Lớp hỗ trợ các phép toán cơ bản như cộng, trừ, tích vô hướng (dot product), chuẩn hóa (norm), truy cập phần tử, và nhập/xuất dữ liệu.
 
 # Tính năng
@@ -61,13 +61,13 @@ Lớp hỗ trợ các phép toán cơ bản như cộng, trừ, tích vô hướ
 
 - Dữ liệu chưa được khởi tạo
 
-- Truy cập chỉ số không hợp lệ, quy trình tự báo lỗi được xử lý rõ ràng, hợp lý và an toàn ở mức cơ bản.
-
-   _Với mục đích học tập, đây là một thiết kế chặt chẽ, có kiểm tra lỗi cẩn thận và rất dễ hiểu._
+- Truy cập chỉ số không hợp lệ
 
 - Con trỏ null (con trỏ rỗng)
 
+_Quy trình tự báo lỗi được xử lý rõ ràng, hợp lý và an toàn ở mức cơ bản_
 
+_Với mục đích học tập, đây là một thiết kế chặt chẽ, có kiểm tra lỗi cẩn thận và rất dễ hiểu._
 
 # Tại sao mình thực hiện dự án này?
 __Tôi viết chương trình này để thể hiện:__
