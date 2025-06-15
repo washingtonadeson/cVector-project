@@ -7,13 +7,13 @@ __Vector phải được xác định trước kích thuớc.__
 
 
 
-__Vector nếu chưa được xác định trước kích thước và data của vector__
+- __Vector nếu chưa được xác định trước kích thước và data của vector__
 
    _Chương trình sẽ tự động VÔ HIỆU HÓA VECTOR (không thể dùng được, EMPTY VECTOR)_
 
    
 
-__Vector có kích thuớc hợp lệ nhưng chưa xác định trước data của vector__
+- __Vector có kích thuớc hợp lệ nhưng chưa xác định trước data của vector__
 
    _KHÔNG THỂ truy xuất dữ liệu phần tử của vector_
   
@@ -25,7 +25,7 @@ __Vector có kích thuớc hợp lệ nhưng chưa xác định trước data c�
 
      
     
-__Vector có kích thước không hợp lệ (kể cả khi chưa xác định kích thước)__
+- __Vector có kích thước không hợp lệ (kể cả khi chưa xác định kích thước)__
 
    _Chương trình sẽ tự động HỦY vector bằng cách reset về dimension = 0, data = nullptr. Hậu quả vector bị VÔ HIỆU HÓA (không thể dùng được, EMPTY VECTOR)_
 
