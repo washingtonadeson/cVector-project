@@ -1,3 +1,6 @@
+#include <iostream>
+#include <cstring>
+#include <cmath>
 #include "cVector.h"
 
 cVector::cVector(int d, float* arr) {
